@@ -4,12 +4,11 @@
 }
 
 body{
-    background: rgb(2,0,36);
     background: rgb(0, 128, 128);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container{
+/* .container{
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
@@ -22,15 +21,14 @@ body{
 
 .content-div{
     width: 40rem;
-    /* border: 1px solid gray; */
     color: white;
     padding:  1rem;
     background-color: rgb(255, 128, 0);
     border-radius: 10px;
     text-align: center;
-}
+} */
 
-.content-div > * {
+/* .content-div > * {
     margin-bottom: 2rem;
 }
 
@@ -52,4 +50,4 @@ body{
 
 buttons.reset{
     background-color: white;
-}
+} */
