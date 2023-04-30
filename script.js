@@ -1,0 +1,1 @@
+const pounds = document.querySelector(".pounds")
