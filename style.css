@@ -54,5 +54,30 @@ buttons.reset{
 /*
 from pounds to kilograms
 kilograms = x / 2.2046
+grams = x / 0.0022046
+ounces = x * 16
+
+*/
+/*
+from kilograms to 
+pounds = x *  2.2046
+grams = x * 1000
+ounces = x * 35.274
+
+*/
+
+/*
+from grams to 
+pounds = x *  0.0022046
+kilograms = x / 1000
+ounces = x * 0.035274
+
+*/
+
+/*
+from ounces to 
+pounds = x *  0.0625
+kilograms = x / 0.035274
+grams = x * 0.035274
 
 */
