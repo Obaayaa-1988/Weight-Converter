@@ -11,3 +11,8 @@ function convertWeight(){
         let x = e.target.value;
     }
 }
+function convertWeight(){
+    if(e.target.classlist.contains("kilograms")){
+        let x = e.target.value;
+    }
+}
