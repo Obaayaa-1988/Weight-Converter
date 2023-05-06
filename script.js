@@ -16,3 +16,8 @@ function convertWeight(){
         let x = e.target.value;
     }
 }
+function convertWeight(){
+    if(e.target.classlist.contains("grams")){
+        let x = e.target.value;
+    }
+}
