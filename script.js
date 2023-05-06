@@ -5,3 +5,9 @@ const grams = document.querySelector(".grams");
 const form = document.querySelector("form");
 
 form.addEventListener("input", convertWeight)
+
+function convertWeight(){
+    if(e.target.classlist.contains("pounds")){
+        let x = e.target.value;
+    }
+}
