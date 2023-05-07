@@ -25,6 +25,9 @@ function convertWeight(){
 function convertWeight(){
     if(e.target.classlist.contains("grams")){
         let x = e.target.value;
+        pounds.value = x * 0.0022046;
+        kilograms.value = x / 1000;
+        ounces.value = x * 0.035274;
     }
 }
 function convertWeight(){
