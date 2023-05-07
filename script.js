@@ -33,5 +33,8 @@ function convertWeight(){
 function convertWeight(){
     if(e.target.classlist.contains("ounces")){
         let x = e.target.value;
+        pounds = x * 0.0625;
+        kilograms = x / 0.035274;
+        grams = x * 0.035274;
     }
 }
