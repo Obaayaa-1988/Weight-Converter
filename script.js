@@ -9,6 +9,9 @@ form.addEventListener("input", convertWeight)
 function convertWeight(){
     if(e.target.classlist.contains("pounds")){
         let x = e.target.value;
+        kilograms.value = x / 2.2046;
+        grams.value = x / 0.0022046;
+        ounces.value = x * 16;
     }
 }
 function convertWeight(){
