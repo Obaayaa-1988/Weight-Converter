@@ -7,14 +7,14 @@ const form = document.querySelector("form");
 form.addEventListener("input", convertWeight)
 
 function convertWeight(e){
-    if(e.target.classlist.contains("pounds")){
+    if(e.target.classList.contains("pounds")){
         let x = e.target.value;
         kilograms.value = (x / 2.2046).toFixed(2);
         grams.value = (x / 0.0022046).toFixed(2);
         ounces.value = (x * 16).toFixed(2);
     }
 
-    if(e.target.classlist.contains("kilograms")){
+    if(e.target.classList.contains("kilograms")){
         let x = e.target.value;
         pounds.value = x * 2.2046;
         grams.value = x * 1000;
@@ -22,14 +22,14 @@ function convertWeight(e){
     }
 
 
-    if(e.target.classlist.contains("grams")){
+    if(e.target.classList.contains("grams")){
         let x = e.target.value;
         pounds.value = x * 0.0022046;
         kilograms.value = x / 1000;
         ounces.value = x * 0.035274;
     }
 
-    if(e.target.classlist.contains("ounces")){
+    if(e.target.classList.contains("ounces")){
         let x = e.target.value;
         pounds = x * 0.0625;
         kilograms = x / 0.035274;
